@@ -1,17 +1,17 @@
 apply plugin: 'com.android.application'
 
 dependencies {
-    compile project(':library')
+    implementation project(':library')
 }
 
 android {
-    buildToolsVersion '26.0.2'
-    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+    compileSdkVersion 27
 
     defaultConfig {
-        minSdkVersion 8
+        minSdkVersion 15
         applicationId 'com.example.sqliteassethelper'
-        targetSdkVersion 26
+        targetSdkVersion 27
         versionCode 1
         versionName '1.0'
     }
